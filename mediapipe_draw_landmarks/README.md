@@ -1,10 +1,10 @@
 # Getting started with Mediapipe Pose detection
 
-Step 1 - Dataset collection and resources  used for this project - 
-    Dataset for yoga posture - Yoga 82 dataset https://sites.google.com/view/yoga-82/home
+Step 1 - Dataset collection and resources  used for this project -
+    Dataset for yoga posture - (Yoga 82 dataset) [https://sites.google.com/view/yoga-82/home]
     Working on data collection scripts - colab -- save on drive for 83 different types of asanas
 
-Step 2 - Utilizing HuggingFace Space - https://huggingface.co/spaces/AleNunezArroyo/pose-detection-mediapipe model build with google mediapipe for detecting the posture and getting line joint drawing
+Step 2 - Utilizing (HuggingFace Space) - [https://huggingface.co/spaces/AleNunezArroyo/pose-detection-mediapipe] model build with google mediapipe for detecting the posture and getting line joint drawing
 
 Step 3 - Visualizing landmarks for a yoga pose
     To run this script
