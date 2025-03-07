@@ -12,3 +12,5 @@ After clicking button to start pose - webcam integration should be allowed and p
 With the  normalized landmarks and pose confidence probabilty from the model -  Gen AI prompt call to be made with landmark coordinates to llama-3.2-90b-vision-preview (Groq) for understanding the correction to be done 
 based on it's reasoning to give feedback  by assessing relative positions of key joints, along with additional information from MoveNet model prediction probability.
 
+Breathing Pattern Analyzer - Author - Swapnali (teammate) - https://maple-heliotrope-silkworm.glitch.me/
+Integrated breathing check build with Teachable Machine + Glitch compatible to React (Refined the usage and changed to aframe-react) 
