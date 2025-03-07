@@ -64,7 +64,7 @@ function YogaPosture() {
     if ((currentTime - startingTime) / 1000 > bestPerform) {
       setBestPerform(timeDiff);
     }
-  }, [currentTime]);
+  }, [bestPerform, startingTime,currentTime]);
 
   useEffect(() => {
     setCurrentTime(0);

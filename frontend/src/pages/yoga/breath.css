@@ -1,0 +1,87 @@
+/* Main app styles - converted from the original HTML */
+#breath-ui {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  z-index: 999;
+}
+
+#breath-rate,
+#breath-state {
+  margin: 10px 0;
+}
+
+#webcam-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 160px;
+  height: 120px;
+  border: 2px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 999;
+}
+
+#webcam-container canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #444;
+  border-radius: 5px;
+  margin: 10px 0;
+  height: 20px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 5px;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+#label-container {
+  display: none; /* Hidden by default, useful for debugging */
+}
+
+/* Additional styles for A-Frame scene */
+.yoga-breathing-app {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+a-scene {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}

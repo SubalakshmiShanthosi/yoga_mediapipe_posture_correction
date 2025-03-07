@@ -22,7 +22,7 @@ export default function DropDownBar({ poseList, currentPose, setCurrentPose }) {
       >
         {poseList.map((pose) => (
           <li onClick={() => setCurrentPose(pose)}>
-            <div class="dropdown-item-container">
+            <div className="dropdown-item-container">
               <p className="dropdown-item-1">{pose}</p>
               <img src={asanas[pose]} className="dropdown-img" />
             </div>
