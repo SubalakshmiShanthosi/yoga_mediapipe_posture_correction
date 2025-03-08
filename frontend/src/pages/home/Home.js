@@ -20,9 +20,6 @@ export default function Home() {
           <Link to="/startbreathing">
             <button className="btn start-btn">Breathing Pattern Analyzer</button>
           </Link>
-          <Link to="/startChakra">
-            <button className="btn start-btn">Chakra Meditation</button>
-          </Link>
         </div>
       </div>
     </div>

@@ -345,8 +345,8 @@ function YogaPosture() {
         </div>
         <div>
           <Webcam
-            width="640px"
-            height="480px"
+            width="540px"
+            height="380px"
             id="webcam"
             ref={webcamRef}
             style={{
@@ -359,8 +359,8 @@ function YogaPosture() {
           <canvas
             ref={canvasRef}
             id="my-canvas"
-            width="640px"
-            height="480px"
+            width="540px"
+            height="380px"
             style={{
               position: 'absolute',
               left: 120,
